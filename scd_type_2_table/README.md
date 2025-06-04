@@ -1,5 +1,3 @@
-
-
 ## Introduction
 
 Modern data platforms must efficiently track and process changes in source systems to keep analytics and reporting up to date. **Databricks Change Data Capture (CDC)**, powered by Delta Lake, offers a robust solution for capturing and propagating data changes in real time or batch.
@@ -34,7 +32,7 @@ By leveraging Databricks CDC and Delta Lake in this architecture, you ensure you
 
 ### What is an SCD Type 2 Table?
 
-![SCD Type 2 Table](images/type2.png)
+<img src="images/type2.png" alt="SCD Type 2 Table" width="350"/>
 
 - Keeps *all* versions of each record (history).
 - Each record has `valid_from` and `valid_to` timestamps, plus an `is_current` flag.
