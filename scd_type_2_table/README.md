@@ -34,6 +34,8 @@ By leveraging Databricks CDC and Delta Lake in this architecture, you ensure you
 
 ### What is an SCD Type 2 Table?
 
+[image]("/images/type2.png")
+
 - Keeps *all* versions of each record (history).
 - Each record has `valid_from` and `valid_to` timestamps, plus an `is_current` flag.
 - Typical fields:
