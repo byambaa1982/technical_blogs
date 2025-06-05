@@ -47,3 +47,15 @@ ORDER BY product, sale_date;
 
 
 ```
+
+```
++--------------+------------+-------------+------------+
+|      username|first_choice|second_choice|third_choice|
++--------------+------------+-------------+------------+
+|Data Logic Hub|           X|     facebook|  Instragram|
+|        User 2|        NULL|         NULL|        NULL|
+|        User 3|    facebook|         NULL|  Instragram|
+|        User 4|        NULL|            X|        NULL|
+|        User 5|        NULL|         NULL|    facebook|
++--------------+------------+-------------+------------+
+```
