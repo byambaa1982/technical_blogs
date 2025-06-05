@@ -19,7 +19,7 @@ PySpark’s `coalesce` function lets you easily pick the first non-null value fr
 Let’s start with a sample DataFrame. Here’s what the data might look like in markdown:
 
 ```markdown
-| username       | first_choice | second_choice | third_choice |
+| username       | first_choice| second_choice | third_choice |
 |----------------|-------------|---------------|--------------|
 | Data Logic Hub | X           | facebook      | Instragram   |
 | User 2         | NULL        | NULL          | NULL         |
@@ -68,7 +68,7 @@ resultDF.show()
 ### Output Table
 
 ```markdown
-| username       | first_choice | second_choice | third_choice | Choice   |
+| username       | first_choice| second_choice | third_choice | Choice   |
 |----------------|-------------|---------------|--------------|----------|
 | Data Logic Hub | X           | facebook      | Instragram   | X        |
 | User 2         | NULL        | NULL          | NULL         | NULL     |
@@ -105,7 +105,7 @@ resultDF.show()
 **Output:**
 
 ```markdown
-| username       | first_choice | second_choice | third_choice | FilledChoice     |
+| username       | first_choice| second_choice | third_choice | FilledChoice     |
 |----------------|-------------|---------------|--------------|------------------|
 | Data Logic Hub | X           | facebook      | Instragram   | X                |
 | User 2         | NULL        | NULL          | NULL         | No Choice Given  |
