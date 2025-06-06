@@ -5,3 +5,4 @@ I am a Certified Databricks Data Engineer. Here, I will share my expertise, insi
 - [Pyspark Coalesce Function](https://github.com/byambaa1982/technical_blogs/tree/main/coalesce)
 - [Clustering Financial Advice Texts Using TF-IDF and K-Means](https://github.com/byambaa1982/technical_blogs/tree/main/test_clustering)
 
+You can learn more from [Data Logic Hub](https://datalogichub.com)
