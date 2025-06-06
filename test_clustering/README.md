@@ -1,4 +1,4 @@
-```markdown
+
 # Clustering Financial Advice Texts Using TF-IDF and K-Means
 
 When analyzing user-generated recommendations or advice, clustering similar entries is a time-tested way to distill key themes. In this post, we walk through a simple but powerful approach: using **TF-IDF** vectorization and **K-Means** clustering to group financial advice snippets based on their textual similarity.
@@ -112,4 +112,4 @@ This small example illustrates how unsupervised learning can uncover related the
 ### Conclusion
 
 K-Means clustering, combined with TF-IDF text vectorization, allows us to group conceptually similar financial advice. This methodology can be scaled to much larger datasets to extract practical themes, inform moderation, or guide content strategy.
-```
+
